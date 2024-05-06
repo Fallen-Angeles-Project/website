@@ -1,7 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://fallenangelsproject.org/'
 languageCode = 'en-us'
 title = 'Fallen Angels'
-theme = 'archie'
+theme = 'atd'
 copyright = "© Fallen Angels, Inc."
 pygmentsstyle = "monokai"
 pygmentscodefences = true

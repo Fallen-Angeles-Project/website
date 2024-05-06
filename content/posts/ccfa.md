@@ -1,7 +1,7 @@
 +++
 title = 'Cafesjian Center for the Arts - Yerevan - Fall 2024 Show'
 date = 2024-05-06T15:33:57-07:00
-draft = true
+draft = false
 +++
 
 ## Fallen Angels Monument - Coming in Fall 2024
@@ -17,3 +17,7 @@ All original artwork will be fabricated in Los Angeles, California, and donated 
 This project is being made possible by the generous support from the following key sponsors.
 
 Visit the [CCA](https://www.cmf.am/)
+
+![Rendering of installation](/img/1.png)
+![Rendering of installation](/img/4.png)
+![Rendering of installation](/img/5.png)
