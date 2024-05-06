@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fallen Angels</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Fallen Angels</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Fallen Angels, Inc.</copyright>
+    <lastBuildDate>Mon, 06 May 2024 15:33:57 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cafesjian Center for the Arts - Yerevan - Fall 2024 Show</title>
+      <link>http://localhost:1313/posts/ccfa/</link>
+      <pubDate>Mon, 06 May 2024 15:33:57 -0700</pubDate>
+      <guid>http://localhost:1313/posts/ccfa/</guid>
+      <description>Fallen Angels Monument - Coming in Fall 2024 Layering Reason - is a monument by artist Zadik Zadikian as a dedication from the Armenian community to the fallen soldiers of the 2020 war in Nagorno-Karabakh that took the lives of thousands of Armenian soldiers.&#xA;For Armenians around the globe, this is a tragic topic. The goal of this monument is to immortalize the fallen soldiers and give the viewer a visceral experience of the scale of loss inflicted by the conflict.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Fallen Angels is a nonprofit organization dedicated to uplifting people through the arts. Founded in 2023 by Zadik Zadikian, our flagship project will be the installation of a large-scale artwork at the Cafesjian Center for the Arts in Fall 2024. For more information, please contact us at az@zadikzadikian.com.</description>
+    </item>
+  </channel>
+</rss>
