@@ -392,17 +392,18 @@ footer {
 
 /* Mobile responsive footer */
 @media (max-width: 600px) {
-  .footer-links {
+  footer {
+    display: flex;
     flex-direction: column;
-    gap: 1.5em;
+  }
+  
+  .footer-links {
+    order: 1;
     margin-bottom: 1em;
   }
   
-  .footer-section {
-    width: 100%;
-  }
-  
   .footer-legal {
+    order: 2;
     font-size: 0.75em;
     padding-top: 1em;
     margin-top: 1em;

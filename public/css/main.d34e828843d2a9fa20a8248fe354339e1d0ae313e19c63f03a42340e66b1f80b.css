@@ -165,7 +165,27 @@ h6::before { color: var(--maincolor); content: '###### '; }
   letter-spacing: -0.5px;
 }
 
-/* Footer - See footer styles further down in file */
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  border-top: 0.4rem dotted var(--bordercl);
+  padding: 2rem 0rem;
+  margin-top: 2rem;
+}
+.soc {
+  display: flex;
+  align-items: center;
+  border-bottom: none;
+}
+.border {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid;
+}
+.footer-info {
+  padding: var(--footer-padding);
+}
 
 /* Common */
 .title h1 {
@@ -327,8 +347,6 @@ footer {
   margin-right: auto;
   padding-left: 1ch;
   padding-right: 1ch;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .footer-links {
@@ -336,7 +354,6 @@ footer {
   flex-wrap: wrap;
   gap: 2em;
   margin-bottom: 2em;
-  justify-content: space-between;
 }
 
 .footer-section h4 {
@@ -391,21 +408,17 @@ footer {
 }
 
 /* Mobile responsive footer */
-@media (max-width: 600px) {
-  .footer-links {
-    flex-direction: column;
-    gap: 1.5em;
-    margin-bottom: 1em;
+@media (max-width: 768px) {
+  footer {
+    padding: 1.5em 1ch 1em;
   }
   
-  .footer-section {
-    width: 100%;
+  .footer-links {
+    gap: 1em;
   }
   
   .footer-legal {
-    font-size: 0.75em;
-    padding-top: 1em;
-    margin-top: 1em;
+    font-size: 0.8em;
   }
   
   .footer-legal p {
@@ -418,12 +431,19 @@ footer {
 }
 
 @media (max-width: 480px) {
+  footer {
+    padding: 1em 1ch 0.5em;
+  }
+  
   .footer-legal {
-    font-size: 0.7em;
+    font-size: 0.75em;
+    padding-top: 1em;
+    margin-top: 1em;
   }
   
   .footer-legal p {
-    margin: 0.35em 0;
+    margin: 0.3em 0;
+    word-break: break-word;
   }
 }
 

@@ -15,7 +15,7 @@ We welcome inquiries from donors, artists, institutions, and cultural organizati
 
 For general information about our programs, partnerships, or donation opportunities:
 
-**Email:** [info@fallenangels.org](mailto:info@fallenangels.org)
+**Email:** [info@fallenangelsproject.org](mailto:info@fallenangelsproject.org)
 
 ### Leadership
 

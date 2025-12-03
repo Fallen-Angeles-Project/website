@@ -165,7 +165,27 @@ h6::before { color: var(--maincolor); content: '###### '; }
   letter-spacing: -0.5px;
 }
 
-/* Footer - See footer styles further down in file */
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  border-top: 0.4rem dotted var(--bordercl);
+  padding: 2rem 0rem;
+  margin-top: 2rem;
+}
+.soc {
+  display: flex;
+  align-items: center;
+  border-bottom: none;
+}
+.border {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid;
+}
+.footer-info {
+  padding: var(--footer-padding);
+}
 
 /* Common */
 .title h1 {
@@ -327,8 +347,6 @@ footer {
   margin-right: auto;
   padding-left: 1ch;
   padding-right: 1ch;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .footer-links {
@@ -336,7 +354,6 @@ footer {
   flex-wrap: wrap;
   gap: 2em;
   margin-bottom: 2em;
-  justify-content: space-between;
 }
 
 .footer-section h4 {
@@ -391,39 +408,86 @@ footer {
 }
 
 /* Mobile responsive footer */
-@media (max-width: 600px) {
-  .footer-links {
-    flex-direction: column;
-    gap: 1.5em;
-    margin-bottom: 1em;
+@media (max-width: 768px) {
+  footer {
+    padding: 1.5em 2ch 1em;
   }
   
-  .footer-section {
-    width: 100%;
+  .footer-links {
+    gap: 1em;
+  }
+  
+  .footer-section h4 {
+    font-size: 0.85em;
+  }
+  
+  .footer-section ul li a {
+    font-size: 0.85em;
   }
   
   .footer-legal {
-    font-size: 0.75em;
-    padding-top: 1em;
-    margin-top: 1em;
+    font-size: 0.78em;
+    line-height: 1.5;
   }
   
   .footer-legal p {
-    margin: 0.4em 0;
+    margin: 0.6em 0;
   }
   
   .footer-copyright {
-    font-size: 0.75em;
+    font-size: 0.72em;
   }
 }
 
 @media (max-width: 480px) {
+  footer {
+    padding: 1.2em 2ch 0.8em;
+  }
+  
+  .footer-section h4 {
+    font-size: 0.8em;
+    margin-bottom: 0.4em;
+  }
+  
+  .footer-section ul li {
+    margin: 0.25em 0;
+  }
+  
+  .footer-section ul li a {
+    font-size: 0.8em;
+  }
+  
   .footer-legal {
     font-size: 0.7em;
+    line-height: 1.45;
+    padding-top: 1em;
+    margin-top: 0.8em;
   }
   
   .footer-legal p {
-    margin: 0.35em 0;
+    margin: 0.5em 0;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  }
+  
+  .footer-copyright {
+    font-size: 0.68em;
+    margin-top: 0.8em;
+  }
+}
+
+@media (max-width: 360px) {
+  footer {
+    padding: 1em 1.5ch 0.8em;
+  }
+  
+  .footer-legal {
+    font-size: 0.65em;
+  }
+  
+  .footer-legal p {
+    word-spacing: -0.05em;
   }
 }
 

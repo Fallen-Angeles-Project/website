@@ -165,7 +165,27 @@ h6::before { color: var(--maincolor); content: '###### '; }
   letter-spacing: -0.5px;
 }
 
-/* Footer - See footer styles further down in file */
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  border-top: 0.4rem dotted var(--bordercl);
+  padding: 2rem 0rem;
+  margin-top: 2rem;
+}
+.soc {
+  display: flex;
+  align-items: center;
+  border-bottom: none;
+}
+.border {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid;
+}
+.footer-info {
+  padding: var(--footer-padding);
+}
 
 /* Common */
 .title h1 {
@@ -327,8 +347,6 @@ footer {
   margin-right: auto;
   padding-left: 1ch;
   padding-right: 1ch;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .footer-links {
@@ -336,7 +354,6 @@ footer {
   flex-wrap: wrap;
   gap: 2em;
   margin-bottom: 2em;
-  justify-content: space-between;
 }
 
 .footer-section h4 {
@@ -392,17 +409,18 @@ footer {
 
 /* Mobile responsive footer */
 @media (max-width: 600px) {
-  .footer-links {
+  footer {
+    display: flex;
     flex-direction: column;
-    gap: 1.5em;
+  }
+  
+  .footer-links {
+    order: 1;
     margin-bottom: 1em;
   }
   
-  .footer-section {
-    width: 100%;
-  }
-  
   .footer-legal {
+    order: 2;
     font-size: 0.75em;
     padding-top: 1em;
     margin-top: 1em;

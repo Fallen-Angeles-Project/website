@@ -27,6 +27,6 @@ Your support enables us to:
 
 ### Ways to Give
 
-For information about making a donation, please contact us at [info@fallenangels.org](mailto:info@fallenangels.org).
+For information about making a donation, please contact us at [info@fallenangelsproject.org](mailto:info@fallenangelsproject.org).
 
 We deeply appreciate your support in elevating Armenian culture through art.
