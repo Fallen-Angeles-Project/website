@@ -9,12 +9,7 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	subtitle = "Fallen Angels. Uplifting through art."
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/Fallen-Angeles-Project"
+	subtitle = "Elevating Armenian culture through art"
 
 [[menu.main]]
 name = "Home"
@@ -30,3 +25,13 @@ weight = 2
 name = "About"
 url = "/about"
 weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+[[menu.main]]
+name = "Donate"
+url = "/donate"
+weight = 5

@@ -1,12 +1,23 @@
 <footer>
-  <div style="display:flex">
-    {{- range $index, $key := .Site.Params.Social -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
-    <a class="border"></a>
-    {{- end -}}
+  <div class="footer-links">
+    <div class="footer-section">
+      <h4>About</h4>
+      <ul>
+        <li><a href="/about">Our Mission</a></li>
+        <li><a href="/posts">News & Updates</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/donate">Support Our Work</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}
+
+  <div class="footer-legal">
+    <p><strong>Fallen Angels Inc.</strong> is a registered 501(c)(3) nonprofit organization dedicated to&nbsp;elevating
+      Armenian culture through&nbsp;the&nbsp;arts.</p>
+    <p>Established 2023 | EIN available upon request</p>
+    <p>All donations are tax-deductible to the fullest extent permitted by&nbsp;law.</p>
+    <p class="footer-copyright">{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} {{ end }} All rights
+      reserved.</p>
   </div>
 </footer>
 {{ if not hugo.IsServer }}
